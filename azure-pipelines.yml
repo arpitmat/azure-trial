@@ -25,4 +25,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-
+stages:
+- stage: Deploy
+    script: python hello-world.py
+    
