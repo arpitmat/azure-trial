@@ -26,6 +26,6 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - task: Deploy
-  script1: python hello-world.py
-  script2: echo "Done deploy"
+  displayName: Deploy name
+- script: python hello-world.py
     
