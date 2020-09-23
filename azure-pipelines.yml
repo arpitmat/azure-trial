@@ -25,7 +25,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-- task: PythonScript@1
+- task: PythonScript@0
   inputs:
     scriptSource: 'filePath'
     scriptPath: hello-world.py
