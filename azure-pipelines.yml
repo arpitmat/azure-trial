@@ -27,6 +27,6 @@ steps:
 
 stages:
 - stage: Deploy
-  script: python hello-world.py
-  script: echo "Done deploy"
+  script1: python hello-world.py
+  script2: echo "Done deploy"
     
