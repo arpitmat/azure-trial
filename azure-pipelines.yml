@@ -25,8 +25,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-stages:
-- stage: Deploy
+- task: Deploy
   script1: python hello-world.py
   script2: echo "Done deploy"
     
